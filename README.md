@@ -6,9 +6,6 @@
 
 > 一键在文件夹空白处右键生成美观的目录树，并保存为文本文件！支持中文/英文自动切换，高性能递归遍历，轻量无依赖。
 
-![示例效果图](https://via.placeholder.com/600x300?text=Directory+Tree+Example+-+📁+src+├──+main.cpp+└──+resource.rc)  
-*(实际使用时可替换为真实截图)*
-
 ---
 
 ## ✨ 功能亮点
@@ -61,43 +58,7 @@ MyProject\
 
 ### 3. 卸载（可选）
 
-再次运行程序，选择 **2. 删除**，即可移除右键菜单项。
-
----
-
-## 🛠 编译指南
-
-### 环境要求
-- Windows 7 或更高
-- MinGW / MSVC / Visual Studio
-- （可选）图标文件 `app_icon.ico`
-
-### 步骤
-
-#### 1. 准备图标（可选但推荐）
-- 将你的 `app_icon.ico` 放入项目目录
-- 或使用 [在线工具](https://icoconvert.com) 生成
-
-#### 2. 创建资源文件 `resource.rc`
-```rc
-// resource.rc
-#include "winres.h"
-1 ICON "app_icon.ico"
-```
-
-#### 3. 编译（MinGW 示例）
-```bash
-# 编译资源
-windres resource.rc -O coff -o resource.res
-
-# 编译主程序
-g++ FileTree.cpp resource.res -o FileTree.exe -ladvapi32
-
-# （可选）隐藏控制台窗口（用于最终分发）
-g++ FileTree.cpp resource.res -o FileTree.exe -ladvapi32 -mwindows
-```
-
-> 💡 **提示**：注册时建议保留控制台（不加 `-mwindows`），方便查看提示。
+以**管理员身份运行** `FileTree.exe`，选择 **2. 删除**，即可移除右键菜单项。
 
 ---
 
@@ -134,8 +95,8 @@ g++ FileTree.cpp resource.res -o FileTree.exe -ladvapi32 -mwindows
 
 ## 💬 作者说
 
-> “Windows 的 PNG 壁纸透明 bug 我修不了，但一个干净的目录树工具，我可以做好。”  
-> —— 献给所有追求效率与整洁的开发者
+> 欢迎提出各种问题!
+> 一起进步！
 
 ---
 
