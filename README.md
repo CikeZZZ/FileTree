@@ -10,7 +10,7 @@
 - 🌐 **自动中英文切换**：根据系统语言显示对应提示和菜单名
 - 🚀 **高性能遍历**：预分配内存、减少系统调用、文件优先排序
 - 🎯 **精准路径传递**：使用 `%V` 正确获取右键所在目录
-- 🖼 **带图标菜单**：右键项显示自定义图标（需嵌入资源）
+- 🖼 **带图标菜单**：右键项显示自定义图标（已嵌入程序）
 - 📁 **智能输出**：结果保存为 `directory_tree.txt`，文件在前、目录在后
 
 ---
@@ -36,11 +36,13 @@
 ### 2. 生成目录树
 
 右键点击 → 选择菜单项，程序将自动：
+
 - 遍历当前目录
 - 生成树形结构
 - 保存为 `当前目录\directory_tree.txt`
 
 示例输出 (`directory_tree.txt`)：
+
 ```
 目录树: C:\MyProject
 MyProject\
@@ -62,10 +64,10 @@ MyProject\
 
 程序自动检测系统 UI 语言：
 
-| 系统语言 | 菜单名 | 控制台提示 | 输出标题 |
-|--------|--------|----------|--------|
-| 中文（简体/繁体） | 生成文件树 | 中文提示 | `目录树: ...` |
-| 其他（默认英文） | Generate File Tree | English | `Directory Tree: ...` |
+| 系统语言          | 菜单名             | 控制台提示 | 输出标题              |
+| ----------------- | ------------------ | ---------- | --------------------- |
+| 中文（简体/繁体） | 生成文件树         | 中文提示   | `目录树: ...`         |
+| 其他（默认英文）  | Generate File Tree | English    | `Directory Tree: ...` |
 
 > 输出文件名始终为英文 `directory_tree.txt`，避免路径兼容性问题。
 
@@ -83,23 +85,19 @@ MyProject\
 
 ## 📄 许可证
 
-本项目为个人工具，**免费使用**。代码可自由修改、分发。
-
-> 📌 **注意**：图标文件需自行提供，避免版权问题。
+本项目采用 **MIT 许可证** —— 详情见 [LICENSE](LICENSE) 文件。
 
 ---
 
 ## 💬 作者说
 
-> 欢迎提出各种问题! 
+> 欢迎提出各种问题!  
 > 一起进步！
 
 ---
 
 **🌟 Enjoy!**  
 右键一下，目录结构尽在掌握！
-
-当然！以下是你的 `README.md` 的**英文版翻译**，语言简洁专业，适合国际用户阅读：
 
 ---
 
@@ -133,6 +131,8 @@ Run `FileTree.exe` **as Administrator**, then choose **1. Register**:
 Choose (1/2): 1
 ```
 
+
+
 ✅ After successful registration, you’ll see the menu item when right-clicking on any **folder background or desktop**:
 
 - Chinese systems: `生成文件树`  
@@ -141,11 +141,13 @@ Choose (1/2): 1
 ### 2. Generate a Directory Tree
 
 Right-click → Select the menu item. The program will automatically:
+
 - Traverse the current directory  
 - Generate a tree structure  
 - Save it as `directory_tree.txt` in the current folder
 
 Sample output (`directory_tree.txt`):
+
 ```
 Directory Tree: C:\MyProject
 MyProject\
@@ -167,10 +169,10 @@ Run `FileTree.exe` **as Administrator** again and choose **2. Remove** to delete
 
 The program auto-detects your system UI language:
 
-| System Language       | Menu Name             | Console Prompts | Output Title        |
-|-----------------------|-----------------------|------------------|---------------------|
-| Chinese (Simplified/Traditional) | 生成文件树           | Chinese          | `目录树: ...`       |
-| Others (default)      | Generate File Tree    | English          | `Directory Tree: ...` |
+| System Language                  | Menu Name          | Console Prompts | Output Title          |
+| -------------------------------- | ------------------ | --------------- | --------------------- |
+| Chinese (Simplified/Traditional) | 生成文件树         | Chinese         | `目录树: ...`         |
+| Others (default)                 | Generate File Tree | English         | `Directory Tree: ...` |
 
 > The output filename is always `directory_tree.txt` (in English) to avoid path compatibility issues.
 
@@ -188,9 +190,7 @@ The program auto-detects your system UI language:
 
 ## 📄 License
 
-This is a personal utility tool, **free to use**. The source code may be freely modified and redistributed.
-
-> 📌 **Note**: You must provide your own `.ico` file to avoid copyright issues.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
