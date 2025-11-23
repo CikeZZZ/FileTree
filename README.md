@@ -1,7 +1,8 @@
 # 🌲 FileTree - 右键生成目录结构树工具
 
-> 一键在文件夹空白处右键生成美观的目录树，并保存为文本文件！支持中文/英文自动切换，高性能递归遍历，轻量无依赖。 
-> 右键一建生成文件树，方便查看你的项目结构也可以发给AI来介绍你的项目。
+> 一键在文件夹空白处右键生成美观的目录树，并保存为文本文件！支持中文/英文自动切换，高性能递归遍历，轻量无依赖。  
+> 它可以帮助你方便的查看你的项目结构，同时你可以将生成的内容发给AI来介绍你的项目。
+
 ---
 
 ## ✨ 功能亮点
@@ -103,8 +104,8 @@ MyProject\
 
 # 🌲 FileTree – Generate Directory Tree via Right-Click
 
-> Instantly generate a clean, tree-structured directory listing by right-clicking on any folder background or desktop—and save it as a text file! Automatically switches between Chinese and English, optimized for performance, and requires no dependencies.
-> Right-click to generate a file tree, which is convenient for viewing your project structure and can also be sent to the AI to introduce your project.
+> Instantly generate a clean, tree-structured directory listing by right-clicking on any folder background or desktop—and save it as a text file! Automatically switches between Chinese and English, optimized for performance, and requires no dependencies.  
+> It can help you conveniently view your project structure, and at the same time, you can send the generated content to the AI to introduce your project.
 
 ---
 
